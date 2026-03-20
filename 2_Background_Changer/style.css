@@ -1,0 +1,35 @@
+h1{
+    text-align: center;
+}
+#parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+    gap: 25px;
+}
+.btn{
+    height:50px;
+    width: 80px;
+    border-radius: 30px;
+}
+#red{
+    background-color: red;
+    color: white;
+}
+#green{
+    background-color: green;
+    color: white;
+}
+#yellow{
+    background-color: yellow;
+    color: rgb(42, 32, 32);
+}
+#blue{
+    background-color: blue;
+    color: white;
+}
+#pink{
+    background-color: pink;
+    color: white;
+}
