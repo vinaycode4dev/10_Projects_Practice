@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(28, 18, 18);
+    color: white;
+}
+#parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* border: 3px solid whitesmoke; */
+}
+#timer{
+    font-size: 25px;
+    font-weight: 400;
+}

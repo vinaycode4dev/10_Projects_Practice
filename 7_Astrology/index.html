@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astrology</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="mainContainer">
+        <h1>Astrology Insights</h1>
+        <form id="astroform">
+            <label for="fname">First Name:</label><br>
+            <input type="text" name="fname" id="name">
+            <br><br>
+            <label for="surname">Surname:</label><br>
+            <input type="text" name="surname" id="surname">
+            <br><br>
+            <p>Enter your Date of Birth</p>
+            <label for="day">Day:</label><br>
+            <input type="number" name="day" id="day" min="1" max="31">
+            <br><br>
+            <label for="month">Month:</label><br>
+            <input type="number" name="month" id="month" min="1" max="12">
+            <br><br>
+            <label for="year">Year</label><br>
+            <input type="number" name="year" id="year" min="1900" max="2026">
+            <br><br>
+            <input type="submit" value="Get Insights">
+        </form>
+        <div class="result" id="result">Your result will appear here</div>
+    </div>
+
+    
+    <script src="main.js"></script>
+</body>
+</html>
