@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(29, 27, 27);
+    color: aliceblue;
+    
+}
+
+input{
+    width: 300px;
+    height: 30px;
+    padding: 5px;
+    font-size: 20px;
+    
+}
+#addTaskBtn{
+    height: 40px;
+    padding: 5px;
+}
+form{
+    margin-bottom: 30px;
+}
+
+.task-item{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.task-text{
+    margin-right: 18px;
+}
+
+.done-btn, .delete-btn{
+    width: 60px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.completed{
+    text-decoration: line-through;
+    color: grey;
+}
