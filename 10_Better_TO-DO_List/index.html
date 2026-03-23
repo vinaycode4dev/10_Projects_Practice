@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Creating an To-Do list main container -->
+     <div id="mainContainer">
+        <h1>TO DO LIST</h1>
+        <form id="taskForm">
+            <input type="text" id="taskInput" placeholder="Enter task..." required>
+            <button type="submit" id="addTaskBtn">Add Task</button>
+        </form>
+
+        <div id="allTask"></div>
+        <hr>
+        <p id="count">Completed: 0 | Uncompleted: 0</p>
+        <button id="clearAllBtn">Clear All</button>
+     </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
